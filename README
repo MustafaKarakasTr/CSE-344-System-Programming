@@ -1,0 +1,7 @@
+How to run the program:
+
+$ make
+$ ./hw1 '/replace[vdc]*/insertedword/;/^[dh]eALth/gold/i;/aaaa$/bcdef/;/last/first/' input.txt
+
+replace operation : '/replace[vdc]*/insertedword/;/^[dh]eALth/gold/i;/aaaa$/bcdef/;/last/first/'
+input file : input.txt
