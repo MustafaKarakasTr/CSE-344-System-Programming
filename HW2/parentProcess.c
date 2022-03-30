@@ -152,14 +152,8 @@ float frobeniusNorm(Matrix * mt, int row,int column){
             sum += (temp * temp);
 
         }
-        
-        
-    }
-    if(mt->matrix[0][0] > 4993 && mt->matrix[0][0] < 4994)
-                printf("SQRT: %f",sqrt(sum));
-        
+    }   
     return sqrt(sum);
-    
 }
 Matrix * createMatrix(int row,int column){
     Matrix * matrix = (Matrix*) malloc(sizeof(Matrix));
@@ -354,7 +348,6 @@ int takeOutputsFromChild(char *inputFile,int numberOfMatrixes){
                 return -1;
             }
             frobenius_norms[indexInMatrixes] = frobeniusNorm((Matrix*)head->data,3,3);
-            printf("DİS: %f\n",frobenius_norms[indexInMatrixes]);
             for(int i=0;i<indexInMatrixes;i++){
                 float distance =frobenius_norms[indexInMatrixes]-frobenius_norms[i];
                 if(distance<0)
