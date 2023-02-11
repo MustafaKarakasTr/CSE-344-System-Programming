@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "dirent.h": "c",
+        "stddef.h": "c",
+        "in.h": "c",
+        "threadhelper.h": "c",
+        "stdlib.h": "c",
+        "client.h": "c",
+        "container.h": "c",
+        "inet.h": "c",
+        "stdint.h": "c",
+        "pthread.h": "c",
+        "my_queue.h": "c",
+        "server.h": "c",
+        "*.ipp": "c",
+        "variant": "c"
+    }
+}
